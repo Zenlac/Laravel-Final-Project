@@ -19,7 +19,8 @@ class CreateProductController extends Controller
         $createproduct->product = $request->input('product');
         $createproduct->quantity = $request->input('quantity');
         $createproduct->price = $request->input('price');
-        $createproduct->save();
+        $createproduct->save(); 
+        // Sir AAAAAAAA masakit na sa ulooo
         return redirect()->back()->with('status','New Product has been Created');
     }
 }
