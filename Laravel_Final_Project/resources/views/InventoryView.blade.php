@@ -2,25 +2,25 @@
 <h1>Inventory List</h1>
 
     <button>
-        <a href="http://127.0.0.1:8000/CreateProduct">
-            Add Product
+        <a href="http://127.0.0.1:8000/Create_Product">
+            Create Product
         </a>
     </button>
 
     <button>
-    <a href="http://127.0.0.1:8000/ReadProduct">
-            Find Product
+    <a href="http://127.0.0.1:8000/Read_Product">
+            Read Product
         </a>
     </button>
 
     <button>
-        <a href="">
-            Edit Product
+        <a href="http://127.0.0.1:8000/Update_Product">
+            Update Product
         </a>
     </button>
 
     <button>
-        <a href="">
+        <a href="http://127.0.0.1:8000/Delete_Product">
             Delete Product
         </a>
     </button>
